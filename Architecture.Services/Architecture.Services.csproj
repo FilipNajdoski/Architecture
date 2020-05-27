@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Architecture.Data\Architecture.Data.csproj" />
+    <ProjectReference Include="..\Architecture.Entity\Architecture.Entity.csproj" />
+    <ProjectReference Include="..\Architecture.Repositories\Architecture.Repositories.csproj" />
+  </ItemGroup>
+
+</Project>
